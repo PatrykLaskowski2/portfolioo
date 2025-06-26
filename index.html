@@ -1,0 +1,236 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Patryk Laskowski | Inzynier Pojazdow Elektrycznych i Hybrydowych | Warszawa, Polska.
+  </title>
+
+  <meta name="description" content="">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Patryk Laskowski, Python, Solidworks, Inventor, ANSYS, AutoCAD, Plecs" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+    
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Moje Prace</a>
+          </li>
+          <li class="nav__item"><a href="#about" class="nav__link">O mnie</a>
+          </li><li class="nav__item"><a href="#contact" class="nav__link">Kontakt</a>
+          </li>
+          <li class="nav__item nav__item--dropdown">
+              <a href="#" class="nav__link">Doświadczenie</a>
+              <ul class="dropdown">
+                <li class="dropdown__item">
+                  <strong>Inżynier Utrzymania Ruchu - Engie</strong>
+                  <p>Praca sprawiała mi dużą satysfakcję dzięki realnemu wpływowi na funkcjonowanie obiektu. Realizowałem modernizację oświetlenia na pasażach, diagnostykę i przeglądy maszyn HVAC. Uczestniczyłem też w odbiorach technicznych lokali po remontach.</p>
+                </li>
+                <li class="dropdown__item">
+                  <strong>Pracownik Techniczny - Toyota</strong>
+                  <p>W Toyota zajmowałem się diagnostyką, naprawą oraz konserwacją pojazdów zgodnie ze standardami producenta.</p>
+                </li>
+                <li class="dropdown__item">
+                  <strong>Koło Naukowe</strong>
+                  <p>Projekt polegał na zaprojektowaniu trójkołowego pojazdu z niezależnym zawieszeniem przednim w programie SolidWorks, z wykorzystaniem zeskanowanych komponentów jako bazy do tworzenia nowych części. W ramach pracy wykonano model 3D, a całość złożono i zweryfikowano pod kątem poprawności montażu i działania.</p>
+                </li>                
+              </ul>
+            </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Patryk Laskowski</span>
+        </h1>
+        <p>Inżynier Pojazdów Elektrycznych i Hybrydowych | Warszawa, Polska</p>
+        <a href="#contact" class="btn btn--pink">Kontakt</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Moje Prace</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>CAD 2D</h3>
+              <p>
+                Posługuję się oprogramowaniem CAD 3D do modelowania elementów i zespołów technicznych zgodnie z zasadami projektowania inżynierskiego. Potrafię tworzyć dokumentację wykonawczą oraz złożeniową na podstawie modeli przestrzennych.
+              </p>
+              <ul class="work__list">
+                <li>Solidworks</li>
+                <li>Inventor</li>
+                <li>ANSYS</li>
+              </ul>
+
+              </div>
+            
+            <div class="work__image-box">
+              <div class="slider" id="slider1">
+                <div class="slides">
+                  <img src="images/img1.jpg" class="slide active">
+                  <img src="images/img2.jpg" class="slide">
+                  <img src="images/img3.jpg" class="slide">
+                </div>
+                <div class="dots">
+                  <span class="dot active" onclick="goToSlide(0, 'slider1')"></span>
+                  <span class="dot" onclick="goToSlide(1, 'slider1')"></span>
+                  <span class="dot" onclick="goToSlide(2, 'slider1')"></span>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>CAD 3D/2D</h3>
+              <p>
+                Potrafię sporządzać dokumentację techniczną zgodnie z normami rysunku technicznego. Znam metody wytwarzania elementów z metalu i drewna, zarówno obróbki ręcznej, jak i maszynowej. Posiadam również wiedzę z zakresu metrologii technicznej, w tym technik pomiarowych i interpretacji tolerancji.
+              </p>
+              <ul class="work__list">
+                <li>Solidworks</li>
+                <li>AutoCAD</li>
+              </ul>
+
+              </div>
+            
+            <div class="work__image-box">
+              <div class="slider" id="slider2">
+                <div class="slides">
+                  <img src="images/img4.jpg" class="slide active">
+                  <img src="images/img5.jpg" class="slide">
+                  <img src="images/img6.jpg" class="slide">
+                  <img src="images/imag41.png" class="slide">
+                </div>
+                <div class="dots">
+                    <span class="dot active" onclick="goToSlide(0, 'slider2')"></span>
+                    <span class="dot" onclick="goToSlide(1, 'slider2')"></span>
+                    <span class="dot" onclick="goToSlide(2, 'slider2')"></span>
+                    <span class="dot" onclick="goToSlide(3, 'slider2')"></span>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        
+          <div class="work__box1">
+            <div class="work__text">
+              <h3>Elektotechnika</h3>
+              <p>
+                Posiadam wiedzę z zakresu elektrotechniki obejmującą analizę obwodów prądu stałego i zmiennego, transformatory oraz maszyny elektryczne. Potrafię wykonywać pomiary parametrów elektrycznych oraz interpretować wyniki w kontekście działania układów i urządzeń.
+              </p>
+              <ul class="work__list">
+                <li>Plecs</li>
+                <li>MatLAB</li>
+              </ul>
+
+              </div>
+            
+            <div class="work__image-box">
+              <div class="slider" id="slider3">
+                <div class="slides">
+                  <img src="images/img7.jpeg" class="slide active">
+                  <img src="images/img8.jpeg" class="slide">
+                </div>
+                <div class="dots">
+                    <span class="dot active" onclick="goToSlide(0, 'slider3')"></span>
+                    <span class="dot" onclick="goToSlide(1, 'slider3')"></span>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          
+          <div class="work__box1">
+            <div class="work__text">
+              <h3>Praca Inżynierska</h3>
+              <p>
+                Praca dotyczy analizy drgań modelu zawieszenia, badanych eksperymentalnie na specjalnym stanowisku oraz z wykorzystaniem symulacji MES. Sprawdzono wpływ eliminatora drgań na tłumienie i stabilność konstrukcji, analizując m.in. masę i podatność. Wykorzystano równania Lagrange’a do opisu dynamiki układu z uwzględnieniem strat energii. Wyniki potwierdzają skuteczność zaprojektowanego układu i mogą stanowić podstawę do dalszych badań nad tłumieniem drgań i odzyskiem energii.</p>
+            
+            </div>
+            
+            <div class="work__image-box">
+              <div class="slider" id="slider4">
+                <div class="slides">
+                  <img src="images/img1.jpg" class="slide active" height="100%">
+                  <img src="images/img11.png" class="slide" height="100%">
+                  <img src="images/img10.png" class="slide" height="100%">
+                  <img src="images/img12.png" class="slide" height="100%">
+                </div>
+                <div class="dots">
+                    <span class="dot active" onclick="goToSlide(0, 'slider4')"></span>
+                    <span class="dot" onclick="goToSlide(1, 'slider4')"></span>
+                    <span class="dot" onclick="goToSlide(2, 'slider4')"></span>
+                    <span class="dot" onclick="goToSlide(3, 'slider4')"></span>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>O mnie</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Jestem ambitnym i zaangażowanym inżynierem z doświadczeniem w projektowaniu, analizie i optymalizacji konstrukcji mechanicznych. W pracy łączę wiedzę techniczną z praktycznym podejściem do rozwiązywania problemów. Posiadam umiejętności modelowania MES, obsługi oprogramowania CAD oraz analizy dynamicznej układów. Pracuję z pasją, dbając o szczegóły i jakość realizowanych projektów. Nieustannie poszerzam swoją wiedzę, realizując projekty badawcze i techniczne.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/ja.jpg.JPEG" alt="" width="85%"/>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Kontakt</h2>
+      <div class="contact__info">
+        <p>
+          Szukasz niezawodnych rozwiązań inżynierskich? Poszukujesz osoby wyspecjalizowanej w zakresie projektowania mechanicznego, obliczeń wytrzymałościowych, optymalizacji oraz analizy? Daj znać z przyjemnością porozmawiam. Najszybszy sposób kontaktu ze mną to wiadomość e-mail.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:laskowskipatryk.kontakt@gmail.com" class="btn">laskowskipatryk.kontakt@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./script.js"></script>
+</body>
+
+</html>
